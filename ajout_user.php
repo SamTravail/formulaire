@@ -3,7 +3,6 @@ require('./includes/pdo.php');
 require('./includes/functions.php');
 include('./includes/header.php'); 
 
-$success = false;
 $errors = [];
 if(!empty($_POST['submitted'])) {
 
